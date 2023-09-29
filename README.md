@@ -22,7 +22,7 @@ The topic we chose was sustainable investing. This project conducts a comprehens
 ## Use
 For those looking to navigate through our analysis:
 - you can begin by examining the raw datasets [here]().
-- you can view the initial data cleaning and preparation (created in Excel and Python) [here]().
+- you can view the initial data cleaning and preparation (created in Excel and Python) [here](clean_data).
 - you can dive into the Python scripts for a detailed walkthrough of our data cleaning, processing, and analysis [here]().
 - Visual representations are best viewed in our Python scrpits and Power BI dashboards, providing a graphical comparison between ESG and traditional ETFs.
 - all images of the charts are [here]().
