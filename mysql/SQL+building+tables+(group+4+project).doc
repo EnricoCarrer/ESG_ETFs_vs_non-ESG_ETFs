@@ -1,0 +1,546 @@
+Date: Fri, 22 Sep 2023 13:35:23 +0000 (UTC)
+Message-ID: <939350380.55.1695389723573@2e47625396fe>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_54_268958082.1695389723572"
+
+------=_Part_54_268958082.1695389723572
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SQL building tables (group 4 project)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SQL building tables (group 4 project)</h1>
+    <div class=3D"Section1">
+        <p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">mysql -=
+u root -p</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE =
+database group4project;</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">USE gro=
+up4project</pre>=20
+</div>
+</div>
+<p></p>
+<p></p>
+<p><u>creating tables</u></p>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE =
+TABLE indicators(
+ETF_symbol VARCHAR(5),
+divid_yield_perc DECIMAL(10, 2),   #perc
+pe_ratio DECIMAL(10, 2),  =20
+expense_ratio_perc DECIMAL(10, 2),   #perc  =20
+PRIMARY KEY(ETF_symbol)
+);</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE =
+TABLE performance(
+ETF_symbol VARCHAR(5),
+date VARCHAR(50),
+open DECIMAL,
+high DECIMAL,
+low DECIMAL,
+close DECIMAL,
+adj_close DECIMAL,
+volume VARCHAR(10),
+daily_returns VARCHAR(50),
+FOREIGN KEY(ETF_symbol) REFERENCES indicators(ETF_symbol) ON DELETE CASCADE
+);</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE =
+TABLE holdings(
+company_symbol VARCHAR(10), =20
+company_name VARCHAR(50),  =20
+perc_asset DECIMAL(10, 2),   #perc
+ETF_symbol VARCHAR(5),   =20
+FOREIGN KEY(ETF_symbol) REFERENCES indicators(ETF_symbol) ON DELETE CASCADE
+);</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE =
+TABLE management(
+ETF_symbol VARCHAR(5),
+ETF_name VARCHAR(50),
+issuer ENUM('ishares', 'SPDR', 'Vanguard'),
+ESG ENUM('yes', 'no'),
+market ENUM('US', 'non-US', 'EM', 'EU'),
+AUM VARCHAR(10),      #decimal and a letter
+FOREIGN KEY(ETF_symbol) REFERENCES indicators(ETF_symbol) ON DELETE CASCADE
+);</pre>=20
+</div>
+</div>
+<p></p>
+<p></p>
+<p><u>Inserting data into tables</u></p>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">INSERT =
+INTO `indicators` VALUES ('DSI', '1.22%', 25.13, '0.25%'),=20
+('SPY', '1.45%', '22.35', '0.09%'),
+('VSGX', '2.43%', '12.86', '0.12%'),
+('VXUS', '2.97%', '12.11', '0.08%'),
+('ESGE', '2.42%', '11.4', '0.25%'),
+('VWO', '3.50%', '10.92', '0.10%'),
+('IESG', null, null, '0.20%'),
+('VGK', '3.17%', '12.81', '0.11%');</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">INSERT =
+INTO performance VALUES ('SPY','3/1/2007','142.25','142.860001','140.570007=
+','141.369995','102.265022','94807600','na'),
+('SPY','4/1/2007','141.229996','142.050003','140.610001','141.669998','102.=
+482018','69620600','0.21%'),
+('SPY','5/1/2007','141.330002','141.399994','140.380005','140.539993','101.=
+66465','76645300','-0.80%'),
+('SPY','8/1/2007','140.820007','141.410004','140.25','141.190002','102.1348=
+11','71655000','0.46%'),
+('SPY','9/1/2007','141.309998','141.600006','140.399994','141.070007','102.=
+047997','75680100','-0.08%'),
+('SPY','10/1/2007','140.580002','141.570007','140.300003','141.539993','102=
+.388008','72428000','0.33%'),
+('SPY','11/1/2007','141.580002','142.619995','141.5','142.160004','102.8364=
+72','54476800','0.44%'),
+('SPY','12/1/2007','142.149994','143.240005','142.110001','143.240005','103=
+.61776','55370600','0.76%'),
+('SPY','16/1/2007','143.070007','143.440002','142.729996','142.960007','103=
+.415222','44871300','-0.20%'),
+('SPY','17/1/2007','142.850006','143.460007','142.729996','143.020004','103=
+.458603','50241400','0.04%'),
+('SPY','18/1/2007','143.169998','143.259995','142.309998','142.539993','103=
+.111366','68177300','-0.34%'),
+('SPY','19/1/2007','142.539993','143.100006','142.460007','142.820007','103=
+.313934','56973000','0.20%'),
+('SPY','22/1/2007','143.070007','143.100006','141.929993','142.380005','102=
+.995651','60253600','-0.31%'),
+('SPY','23/1/2007','142.259995','143.080002','142.059998','142.800003','103=
+.299454','54064400','0.29%'),
+('SPY','24/1/2007','142.970001','143.979996','142.910004','143.949997','104=
+.131378','55834700','0.81%'),
+('SPY','25/1/2007','143.860001','143.919998','142.009995','142.259995','102=
+.908829','73583800','-1.17%'),
+('SPY','26/1/2007','142.570007','142.649994','141.580002','142.130005','102=
+.814819','67255600','-0.09%'),
+('SPY','29/1/2007','142.190002','142.800003','141.740005','142.050003','102=
+.756935','66114600','-0.06%'),
+('SPY','30/1/2007','142.350006','142.860001','142.059998','142.789993','103=
+.292213','70407600','0.52%'),
+('SPY','31/1/2007','142.630005','144.130005','142.399994','143.75','103.986=
+664','91868600','0.67%'),</pre>=20
+</div>
+</div>
+<p></p>
+<p>Adding all the different funds in using the code template below:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">INSERT =
+INTO performance (ETF_symbol, date, open, high, low, close, adj_close, volu=
+me, daily_returns)
+VALUES ('VSGX','1/10/2018','50.970001','50.98','50.66','50.77','45.215836',=
+'18100','na'),
+('VSGX','2/10/2018','50.400002','50.450001','50.25','50.349998','44.841774'=
+,'18600','-0.83%'),
+('VSGX','3/10/2018','50.5','50.5','50.18','50.18','44.690372','5100','-0.34=
+%'),
+('VSGX','4/10/2018','49.849998','49.849998','49.279999','49.41','44.004608'=
+,'3100','-1.53%'),
+('VSGX','5/10/2018','49.419998','49.419998','48.959999','49.18','43.799778'=
+,'7300','-0.47%'),
+('VSGX','8/10/2018','48.799999','48.98','48.639999','48.98','43.621651','22=
+600','-0.41%'),
+('VSGX','9/10/2018','48.549999','48.849998','48.540001','48.810001','43.470=
+257','18200','-0.35%'),
+('VSGX','10/10/2018','48.639999','48.639999','47.880001','47.880001','42.64=
+1998','20900','-1.91%'),
+('VSGX','11/10/2018','47.610001','47.610001','47.139999','47.150002','41.99=
+1859','14700','-1.52%'),
+('VSGX','12/10/2018','47.73','47.73','47.18','47.610001','42.401527','41600=
+','0.98%'),
+('VSGX','15/10/2018','47.400002','47.5','47.259998','47.380001','42.19669',=
+'24400','-0.48%'),
+('VSGX','16/10/2018','48.029999','48.299999','47.93','48.290001','43.007141=
+','19200','1.92%'),
+('VSGX','17/10/2018','48.080002','48.080002','47.799999','47.939999','42.69=
+5427','33900','-0.72%'),
+('VSGX','18/10/2018','47.759998','47.759998','47.060001','47.16','42.000763=
+','40800','-1.63%'),
+('VSGX','19/10/2018','47.419998','47.59','47.330002','47.389999','42.205605=
+','7100','0.49%'),
+('VSGX','22/10/2018','47.560001','47.560001','47.150002','47.34','42.161072=
+','10400','-0.11%'),
+('VSGX','23/10/2018','46.5','47.040001','46.299999','46.919998','41.787014'=
+,'39500','-0.89%'),
+('VSGX','24/10/2018','46.470001','46.549999','45.779999','45.779999','40.77=
+1732','12600','-2.43%'),
+('VSGX','25/10/2018','45.869999','46.48','45.869999','46.099998','41.056721=
+','11500','0.70%'),
+('VSGX','26/10/2018','45.599998','46.049999','45.349998','45.84','40.825165=
+','27100','-0.56%'),
+('VSGX','29/10/2018','46.369999','46.369999','45.439999','45.580002','40.59=
+3624','10700','-0.57%'),</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">INSERT =
+INTO `holdings` VALUES ("MSFT","Microsoft Corp","10.89%","DSI"),
+("NVDA","NVIDIA Corp","5.73%","DSI"),
+("GOOGL","Alphabet Inc Class A","3.81%","DSI"),
+("TSLA","Tesla Inc","3.46%","DSI"),
+("GOOG","Alphabet Inc Class C","3.42%","DSI"),
+("V","Visa Inc Class A","1.87%","DSI"),
+("PG","Procter &amp; Gamble Co","1.71%","DSI"),
+("MA","Mastercard Inc Class A","1.64%","DSI"),
+("HD","The Home Depot Inc","1.56%","DSI"),
+("MRK","Merck &amp; Co Inc","1.30%","DSI"),
+("AAPL","Apple Inc","7.37%","SPY"),
+("MSFT","Microsoft Corp","6.46%","SPY"),
+("AMZN","Amazon.com Inc","3.27%","SPY"),
+("NVDA","NVIDIA Corp","3.24%","SPY"),
+("GOOGL","Alphabet Inc Class A","2.15%","SPY"),
+("GOOG","Alphabet Inc Class C","1.86%","SPY"),
+("TSLA","Tesla Inc","1.84%","SPY"),
+("META","Meta Platforms Inc Class A","1.74%","SPY"),
+("BRK.B","Berkshire Hathaway Inc Class B","1.70%","SPY"),
+("XOM","Exxon Mobil Corp","1.19%","SPY"),
+("2330","Taiwan Semiconductor Manufacturing Co Ltd","2.00%","VSGX"),
+("NESN","Nestle SA","1.56%","VSGX"),
+("NOVO B","Novo Nordisk A/S Class B","1.40%","VSGX"),
+("ASML","ASML Holding NV","1.26%","VSGX"),
+("5930","Samsung Electronics Co Ltd","1.17%","VSGX"),
+("7203","Toyota Motor Corp","1.00%","VSGX"),
+("ROG","Roche Holding AG","0.99%","VSGX"),
+("NOVN","Novartis AG Registered Shares","0.98%","VSGX"),
+("9988","Alibaba Group Holding Ltd Ordinary Shares","0.97%","VSGX"),
+("AZN","AstraZeneca PLC","0.96%","VSGX"),
+("2330","Taiwan Semiconductor Manufacturing Co Ltd","1.45%","VXUS"),
+("NESN","Nestle SA","1.12%","VXUS"),
+("NOVO B","Novo Nordisk A/S Class B","1.01%","VXUS"),
+("ASML","ASML Holding NV","0.91%","VXUS"),
+("700","Tencent Holdings Ltd","0.91%","VXUS"),
+("5930","Samsung Electronics Co Ltd","0.84%","VXUS"),
+("MC","LVMH Moet Hennessy Louis Vuitton SE","0.73%","VXUS"),
+("SHEL","Shell PLC","0.73%","VXUS"),
+("7203","Toyota Motor Corp","0.72%","VXUS"),
+("ROG","Roche Holding AG","0.71%","VXUS"),
+("2330","Taiwan Semiconductor Manufacturing Co Ltd","7.15%","ESGE"),
+("700","Tencent Holdings Ltd","3.90%","ESGE"),
+("5930","Samsung Electronics Co Ltd","3.87%","ESGE"),
+("9988","Alibaba Group Holding Ltd Ordinary Shares","2.84%","ESGE"),
+("RELIANCE","Reliance Industries Ltd","1.22%","ESGE"),
+("3690","Meituan Class B","1.20%","ESGE"),
+("INFY","Infosys Ltd","1.15%","ESGE"),
+("2892","First Financial Holding Co Ltd","1.14%","ESGE"),
+("ICICIBANK","ICICI Bank Ltd","0.97%","ESGE"),
+("HDFCBANK","HDFC Bank Ltd","0.95%","ESGE"),
+("2330","Taiwan Semiconductor Manufacturing Co Ltd","4.91%","VWO"),
+("700","Tencent Holdings Ltd","3.55%","VWO"),
+("9988","Alibaba Group Holding Ltd Ordinary Shares","2.75%","VWO"),
+("RELIANCE","Reliance Industries Ltd","1.34%","VWO"),
+("3690","Meituan Class B","1.21%","VWO"),
+("INFY","Infosys Ltd","0.83%","VWO"),
+("TSM","Taiwan Semiconductor Manufacturing Co Ltd ADR","0.81%","VWO"),
+("HDFCBANK","HDFC Bank Ltd","0.77%","VWO"),
+("VALE3","Vale SA","0.70%","VWO"),
+("939","China Construction Bank Corp Class H","0.68%","VWO"),
+("OR","L'Oreal SA","4.45%","IESG"),
+("ASML","ASML Holding NV","4.43%","IESG"),
+("NOVO B","Novo Nordisk A/S Class B","4.41%","IESG"),
+("SU","Schneider Electric SE","4.08%","IESG"),
+("ZURN","Zurich Insurance Group AG","3.08%","IESG"),
+("RMS","Hermes International SA","2.85%","IESG"),
+("REL","RELX PLC","2.70%","IESG"),
+("CS","AXA SA","2.41%","IESG"),
+("MUV2","Munchener Ruckversicherungs-Gesellschaft AG","2.34%","IESG"),
+("RKT","Reckitt Benckiser Group PLC","2.26%","IESG"),
+("NESN","Nestle SA","2.88%","VGK"),
+("NOVO B","Novo Nordisk A/S Class B","2.59%","VGK"),
+("ASML","ASML Holding NV","2.33%","VGK"),
+("SHEL","Shell PLC","1.88%","VGK"),
+("MC","LVMH Moet Hennessy Louis Vuitton SE","1.88%","VGK"),
+("ROG","Roche Holding AG","1.83%","VGK"),
+("NOVN","Novartis AG Registered Shares","1.82%","VGK"),
+("AZN","AstraZeneca PLC","1.78%","VGK"),
+("SAP","SAP SE","1.37%","VGK"),
+("HSBA","HSBC Holdings PLC","1.32%","VGK");</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">INSERT =
+INTO `management` VALUES ('DSI', 'iShares MSCI KLD 400 Social ETF',  'Ishar=
+es', 'yes', 'US', '3.81B'),
+('SPY', 'SPDR S&amp;P 500 ETF Trust', 'SPDR', 'no', 'US', '412.8B'),
+('VSGX', 'Vanguard ESG International Stock ETF', 'Vanguard', 'yes', 'non-US=
+', '3.39B'),
+('VXUS', 'Vanguard Total Intl Stock Idx Fund', 'Vanguard', 'no', 'non-US', =
+'378.03B'),
+('ESGE', 'iShares ESG Aware MSCI EM ETF', 'iShares', 'yes', 'EM', '4.32B'),
+('VWO', 'Vanguard Emerging Markets Stock Index Fund', 'Vanguard', 'yes', 'E=
+M', '98.73B'),
+('IESG', 'iShares MSCI Europe SRI UCITS ETF', 'iShares' , 'yes', 'EU', '3.3=
+3B'),
+('VGK', 'Vanguard FTSE Europe ETF', 'Vanguard', 'no', 'EU', '24.41B');</pre=
+>=20
+</div>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_54_268958082.1695389723572--
