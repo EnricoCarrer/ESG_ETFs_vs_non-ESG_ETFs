@@ -18,6 +18,7 @@ The topic we chose was sustainable investing. This project conducts a comprehens
 ## Key Findings
 - Broadly, ESG ETFs and Non-ESG ETFs showcase similar performance in terms of long term returns.
 - However, there are more difference when looking at specific markets and during different economic cycles.
+![mean performance of ESG vs non-ESG](https://github.com/EnricoCarrer/ESG_ETFs_vs_non-ESG_ETFs/blob/ccc38da0af61bcec58636b0824d0905f818483bc/images/ESG_vs_NonESG.png)
 
 ## Use
 For those looking to navigate through our analysis:
