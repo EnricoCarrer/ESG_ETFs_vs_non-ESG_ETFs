@@ -3,6 +3,7 @@ As final group project in the Data Analitycs training program, we were requested
 
 ## ESG_vs_non_ESG_ETFs
 The topic we chose was sustainable investing. This project conducts a comprehensive data analysis on ESG (Environmental, Social, and Governance) ETFs. It compares their returns and other indicators to those of comparable traditional ETFs across the following markets: US, Global ex-US, Emerging Markets and Europe. As requested, the analysis was carried out using Excel, Python, SQL, and Power BI.
+![ESG description](https://github.com/EnricoCarrer/ESG_ETFs_vs_non-ESG_ETFs/blob/e742ca662086eaf1585e63f41e45c60db58093aa/images/ESG_photo.png)
 
 ## Key features
 - Data Sources: Main datasets were procured from Yahoo Finance and etf.com.
