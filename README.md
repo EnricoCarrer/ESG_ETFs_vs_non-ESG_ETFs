@@ -4,7 +4,7 @@ As final group project in the Data Analitycs training program, we were requested
 ## ESG_vs_non_ESG_ETFs
 The topic we chose was sustainable investing. This project conducts a comprehensive data analysis on ESG (Environmental, Social, and Governance) ETFs. It compares their returns and other indicators to those of comparable traditional ETFs across the following markets: US, Global ex-US, Emerging Markets and Europe. As requested, the analysis was carried out using Excel, Python, SQL, and Power BI.
 <p float="center">
-  <img src =".images/ESG_photo.png" />
+  <img src ="images/ESG_photo.png" />
 </p>
 
 ## Key features
