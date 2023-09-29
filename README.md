@@ -27,4 +27,4 @@ For those looking to navigate through our analysis:
 - Visual representations are best viewed in our Python scrpits and Power BI dashboards, providing a graphical comparison between ESG and traditional ETFs.
 - all images of the charts are in the [image folder](https://github.com/EnricoCarrer/ESG_ETFs_vs_non-ESG_ETFs/tree/deb9230736a03166020efcef475e3e40c2d2c7aa/images).
 - our SQL queries and Database design are available in the [MySQL folder](https://github.com/EnricoCarrer/ESG_ETFs_vs_non-ESG_ETFs/tree/deb9230736a03166020efcef475e3e40c2d2c7aa/mysql).
-- The powerpoint of the final presentation is [here](https://github.com/EnricoCarrer/ESG_ETFs_vs_non-ESG_ETFs/blob/deb9230736a03166020efcef475e3e40c2d2c7aa/Group%204-%20ESG%20ETF%20presentation%20-%20final%20presentation.pptx).
+- The powerpoint of the final presentation can be downloaded [here](https://github.com/EnricoCarrer/ESG_ETFs_vs_non-ESG_ETFs/blob/deb9230736a03166020efcef475e3e40c2d2c7aa/Group%204-%20ESG%20ETF%20presentation%20-%20final%20presentation.pptx).
